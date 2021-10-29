@@ -8,27 +8,27 @@ import pandas as pd
 disastersDF = pd.read_csv('natural_disasters_cleaned.csv')
 
 totalDisasters = disastersDF['All natural disasters'].sum()
-print(totalDisasters)
+print("Total Disasters:", int(totalDisasters))
 
 totalDrought = disastersDF['Drought'].sum()
-print(totalDrought)
+print("Total number of Droughts:", int(totalDrought))
 
 totalExtremeTemperature = disastersDF['Extreme temperature'].sum()
-print(totalExtremeTemperature)
+print("Total number of Extreme Weather Events:", int(totalExtremeTemperature))
 
 totalExtremeWeather = disastersDF['Extreme weather'].sum()
-print(totalExtremeWeather)
+print("Total number of Extreme Weather Events:", int(totalExtremeWeather))
 
 totalFlood = disastersDF['Flood'].sum()
-print(totalFlood)
+print("Total number of Floods:", int(totalFlood))
 
 totalLandslide = disastersDF['Landslide'].sum()
-print(totalLandslide)
+print("Total number of Landslides:", int(totalLandslide))
 
 totalWildfire = disastersDF['Wildfire'].sum()
-print(totalWildfire)
+print("Total number of Wildfires:", int(totalWildfire))
 
 economicDF = pd.read_csv('natural_disaster_economic_impact_cleaned.csv')
 
 totalEconomic = economicDF['TotalCosts'].sum()
-print(totalEconomic)
+print("Total economic impact:", totalEconomic)
