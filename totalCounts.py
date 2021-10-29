@@ -14,7 +14,7 @@ totalDrought = disastersDF['Drought'].sum()
 print("Total number of Droughts:", int(totalDrought))
 
 totalExtremeTemperature = disastersDF['Extreme temperature'].sum()
-print("Total number of Extreme Weather Events:", int(totalExtremeTemperature))
+print("Total number of Extreme Temperature Events:", int(totalExtremeTemperature))
 
 totalExtremeWeather = disastersDF['Extreme weather'].sum()
 print("Total number of Extreme Weather Events:", int(totalExtremeWeather))
