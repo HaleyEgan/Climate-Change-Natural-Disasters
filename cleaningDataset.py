@@ -15,4 +15,4 @@ dataObj.cleanDf()
 df = dataObj.df.copy()
 
 # create a new csv with that dataset.
-df.to_csv('natural_disasters_cleaned.csv')
+df.to_csv('Disasters_and_economic_impact_by_year.csv')
