@@ -57,23 +57,26 @@ class DisasterData(object):
     Helper Functios:
         - _clean_dataset()
     '''
-    def __init__(self, csv_str = 'natural_disasters_original.csv'):
+    def __init__(self, csv_strs = ['natural_disasters_original.csv','natural_disaster_economic_impact_original.csv']):
         '''
         Opens the original file of the dataset and cleans/pivots it.
 
         Args:
-            - csv_str(str): the path to the csv file we want as our initial pull.
-                - Default: natural_disasters_original.csv
+            - csv_str(iter): the paths to the csv files we want as our initial pull.
+                - Default: (natural_disasters_original.csv,'natural_disaster_economic_impact.csv')
         '''
-        # pull the original dataset
-        self.original_df = df = pd.read_csv(csv_str)
+        # pull the original datasets
+        self.disaster_df = pd.read_csv(csv_strs[0])
+        self.economic_df = pd.read_csv(csv_strs[1])
 
         # The following will act as default values for cleanDf()
         # set our column_map and rename them.
         self.column_map = {
-            'Entity': 'Disaster',
-            'Number of reported natural disasters (reported disasters)': 'Number_of_Disasters'
-            }
+                'Entity': 'Disaster',
+                'Number of reported natural disasters (reported disasters)': 'Number_of_Disasters',
+                'Total economic damage from natural disasters (US$)':'TotalCosts'
+                }
+
 
         # a list to select the columns we need, and ignore the ones we don't
         self.final_columns = ['All natural disasters',
@@ -83,6 +86,9 @@ class DisasterData(object):
                             'Flood',
                             'Landslide',
                             'Wildfire']
+
+        # add additional columns for the total cost of each method.
+        self.final_columns = self.final_columns + ['TotalCost: '+col for col in self.final_columns]
 
         # Create an empty dataframe for df since we haven't cleand it yet
         self.df = pd.DataFrame()
@@ -99,12 +105,24 @@ class DisasterData(object):
             column_map = self.column_map
 
         # Create 'df' attribute and rename the columns appropriately.
-        self.df = self.original_df.rename(columns=column_map)
+        self.df1 = self.disaster_df.rename(columns=column_map)
 
         # Re-organize our dataset so that each disaster-type is one column
-        self.df = self.df.pivot(columns='Disaster',
+        self.df1 = self.df1.pivot(columns='Disaster',
                                 index='Year',
                                 values='Number_of_Disasters')
-                                
+
+        # now do the same for df2, our economic dataset
+        self.df2 = self.economic_df.rename(columns=column_map)
+        self.df2 = self.df2.pivot(columns='Disaster',
+                                index='Year',
+                                values='TotalCosts')
+        self.df2.columns = ["TotalCost: " + x for x in self.df2.columns]
+
+        # merge them into one single dataframe.
+        self.df = self.df1.merge(self.df2,
+                                left_index=True,
+                                right_index=True,
+                                how='left')
         # reset our dataframe to our output columns of choice.
         self.df = self.df[cols]
