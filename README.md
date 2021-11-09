@@ -1,7 +1,5 @@
 # Climate-Change-Natural-Disasters
 
-Visualizing Natural Disasters 
-
 by Haley Egan, Diana Morris, Maggie Houck, and William Johnson
 
 UVA School of Data Science, DS 5100
