@@ -1,6 +1,6 @@
 # Climate-Change-Natural-Disasters
 
-Visualizing Natural Disasters - Github README/Project Intro
+Visualizing Natural Disasters 
 
 by Haley Egan, Diana Morris, Maggie Houck, and William Johnson
 
