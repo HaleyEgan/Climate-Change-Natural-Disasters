@@ -93,7 +93,7 @@ class DisasterData(object):
         # Create an empty dataframe for df since we haven't cleand it yet
         self.df = pd.DataFrame()
 
-    def cleanDf(self,cols = None, column_map = None):
+    def cleanDf(self,cols = None, column_map = None): 
         '''
         takes the self.df object and populates it with a cleaned dataset from our
         original dataset.
@@ -124,5 +124,11 @@ class DisasterData(object):
                                 left_index=True,
                                 right_index=True,
                                 how='left')
+        
+        #create a df that is from 1970-2015 - subset by index
+        self.df = self.df.loc[1970:]
+       
         # reset our dataframe to our output columns of choice.
         self.df = self.df[cols]
+        
+      
