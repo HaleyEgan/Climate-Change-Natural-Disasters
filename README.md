@@ -13,4 +13,4 @@ We wanted to answer the following questions:
 - Are natural disasters increasing in severity over time?
 - Are natural disasters and their severity linked to Climate Change?
 
-
+<img src="allDisasters.png alt="drawing" width="200"/>
