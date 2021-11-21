@@ -51,28 +51,26 @@ We combined the economic data set with the natural disaster data set for easier 
 ## Exploratory Data Analysis
 
 ### All Natural Disasters
-
-<img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/allDisasters.png" alt="all natural disasters over time" style="zoom:80%;" /><img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/allDisastersCost.png" alt="total cost of natural disasters" style="zoom:80%;" />
-
-
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/allDisasters.png)
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/allDisastersCost.png)
 
 From some basic line graphs, we can see the trend of all global natural disasters recorded since 1970. Since 1970, there is an exponential upward trend until the early 2000s. There is a decrease in natural disasters after 2010, but the number of disasters is still high. The second graph visualizes the total cost of natural disasters since 1970. The cost of natural disasters follows the similar growth trend, with a peak around 2010. 
 
 ### Drought
-
-<img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/drought.png" alt="droughts over time" style="zoom:80%;" /><img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/droughtCost.png" alt="drought costs " style="zoom:80%;" />
+![drought](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/drought.png)
+![drought costs](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/droughtCost.png)
 
 These line graphs examine the trend of droughts around the world since 1970, and the total economic impact of the droughts. There have been several droughts since 1970, with spikes around 1984, 2000, and 2015. While there have been many droughts the level of natural disasters, the economic impact of the droughts appears to be increasing. After 2010, the total cost of droughts is significantly higher than any other year.
 
 ### Extreme Weather
-
-<img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/extremeW.png" alt="Extreme weather " style="zoom:80%;" /><img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/extremeWCost.png" alt="Extreme weather cost " style="zoom:80%;" />
+![extreme weather](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/extremeW.png)
+![extreme weather costs](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/extremeWCost.png)
 
 Extreme weather is an aggregate of a few natural disaster types: typhoons, tornadoes, and hurricanes. Based on the left line graph, there appears to be a steady increase in extreme weather events since 1970. The right graph also communicates the increase in economic impact of extreme weather events over time.
 
 ### Extreme Temperature
-
-<img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/extremeT.png" alt="Extreme temperature " style="zoom:80%;" /><img src="/Users/haleyegan/Documents/GitHub/Climate-Change-Natural-Disasters/extremeTCost.png" alt="extreme temp costs " style="zoom:80%;" />
+![extreme temp](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/extremeW.png)
+![extreme temp](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/extremeTCost.png)
 
 Extreme temperature appears to be increasing steadily since 1970, with a spike around 2010, that is consistent with the sharp increase in economic cost of extreme temperature around 2010. Extreme temperature seems to fluctuate from year to year, but the graph shows a consistent upward trend over time. Overall, the economic impact of extreme temperature does not appear to have the same economic impact as other natural disasters.  
 
