@@ -40,11 +40,7 @@ The figures for total economic damage are derived from the following:
 
 While the data we obtained had already been cleaned and organized, it was necessary to format and catery the data to our specific needs.
 
-The types of natural disasters included in the original dataset were: drought, earthquake, extreme temperature, extreme weather, flood, impact, landslide, mass movement (dry), volcanic activity, wildfire, and information on all these natural disasters combined. Since we were interested in natural disasters in relation to Climate Change, it was not necessary for analysis to keep all of the variables. We removed earthquakes, volcanoes, mass movement (dry), and impact, as these variables are independent from Climate Change. We also changed some of the variable names to be more clear, such as renaming 'Entity' as 'Disaster'. After removing several variables, we updated the 'All Natural Disasters' variable to only include the selected variables for our dataset. 
-
-**We also removed the 'code' column, and organized the data by date, and then disaster type, instead of by the original disaster type.** 
-
-We combined the economic data set with the natural disaster data set for easier analysis and comparisons among natural disaster types and trends over time. 
+The types of natural disasters included in the original dataset were: drought, earthquake, extreme temperature, extreme weather, flood, impact, landslide, mass movement (dry), volcanic activity, wildfire, and information on all these natural disasters combined. Since we were interested in natural disasters in relation to Climate Change, it was not necessary for analysis to keep all of the variables. We removed earthquakes, volcanoes, mass movement (dry), and impact, as these variables are independent from Climate Change. We also changed some of the variable names to be more clear, such as renaming 'Entity' as 'Disaster'. After removing several variables, we updated the 'All Natural Disasters' variable to only include the selected variables for our dataset. We also removed the 'code' column, and organized the data by date, and then disaster type, instead of by the original disaster type. We combined the economic data set with the natural disaster data set for easier analysis and comparisons among natural disaster types and trends over time. 
 
 
 
