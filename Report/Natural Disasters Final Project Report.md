@@ -47,7 +47,7 @@ The types of natural disasters included in the original dataset were: drought, e
 ## Exploratory Data Analysis
 
 ### All Natural Disasters
-![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/allDisasters.png)
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/allDisasters.png)
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/allDisastersCost.png)
 
 From some basic line graphs, we can see the trend of all global natural disasters recorded since 1970. Since 1970, there is an exponential upward trend until the early 2000s. There is a decrease in natural disasters after 2010, but the number of disasters is still high. The second graph visualizes the total cost of natural disasters since 1970. The cost of natural disasters follows the similar growth trend, with a peak around 2010. 
