@@ -44,7 +44,7 @@ The types of natural disasters included in the original dataset were: drought, e
 
 ### Missing Data
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Missing_Data.png)
-
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/missing%20data%20stats.png)
 
 ## Exploratory Data Analysis
 
