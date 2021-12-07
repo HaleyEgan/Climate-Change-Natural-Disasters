@@ -15,13 +15,12 @@ We wanted to answer the following questions:
 
 
 # View Our Full Report Here:
-
-(link)[https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Report/Natural%20Disasters%20Final%20Project%20Report.md]
+[link](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Report/Natural%20Disasters%20Final%20Project%20Report.md)
 
 
 # Instructions for Running Code
 
-follow the link to our jupyter notebook here: (link)[https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Report/Climate_Change_and_Economic_Impact.ipynb]
+follow the link to our jupyter notebook here: [link](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Report/Climate_Change_and_Economic_Impact.ipynb)
 You'll find a button that says "Run In Colab". That notebook should open in your drive as a new colab notebook. The script will clone and copy our repository and leverage the code written in the <u>Source</u> directory, including our unittests. The code is all OOP, so there need only be a few lines of code written to execute on complex operations. 
 
 
