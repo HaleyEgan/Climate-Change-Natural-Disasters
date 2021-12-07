@@ -39,7 +39,7 @@ from numpy import nan as NA
 
 
 #open csv file     
-df = pd.read_csv('natural_disaster_economic_impact.csv') #open csv as dataframe 
+df = pd.read_csv('../Data/natural_disaster_economic_impact_original.csv') #open csv as dataframe 
 df.head()
 #print(df)
     
@@ -76,6 +76,6 @@ df = df[df.Disaster != 'Impact']
 df = df[df.TotalCosts != 0]
 
 #write changes to csv file
-df.to_csv('natural_disaster_economic_impact_cleaned.csv', index=False)
+df.to_csv('../Data/natural_disaster_economic_impact_cleaned.csv', index=False)
 
 
