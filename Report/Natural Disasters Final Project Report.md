@@ -42,13 +42,19 @@ While the data we obtained had already been cleaned and organized, it was necess
 
 The types of natural disasters included in the original dataset were: drought, earthquake, extreme temperature, extreme weather, flood, impact, landslide, mass movement (dry), volcanic activity, wildfire, and information on all these natural disasters combined. Since we were interested in natural disasters in relation to Climate Change, it was not necessary for analysis to keep all of the variables. We removed earthquakes, volcanoes, mass movement (dry), and impact, as these variables are independent from Climate Change. We also changed some of the variable names to be more clear, such as renaming 'Entity' as 'Disaster'. After removing several variables, we updated the 'All Natural Disasters' variable to only include the selected variables for our dataset. We also removed the 'code' column, and organized the data by date, and then disaster type, instead of by the original disaster type. We combined the economic data set with the natural disaster data set for easier analysis and comparisons among natural disaster types and trends over time. 
 
+### Missing Data
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Missing_Data.png)
 
 
 ## Exploratory Data Analysis
 
+### Correlation Matrix
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png)
+
 ### All Natural Disasters
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/allDisasters.png)
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/allDisastersCost.png)
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/wildFireandCost.png)
 
 From some basic line graphs, we can see the trend of all global natural disasters recorded since 1970. Since 1970, there is an exponential upward trend until the early 2000s. There is a decrease in natural disasters after 2010, but the number of disasters is still high. The second graph visualizes the total cost of natural disasters since 1970. The cost of natural disasters follows the similar growth trend, with a peak around 2010. 
 
