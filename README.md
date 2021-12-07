@@ -25,3 +25,6 @@ You'll find a button that says "Run In Colab". That notebook should open in your
 
 You can re-run each cell in order if you want to test the code out. It will create a copy of our repository on your google drive. 
 
+# Run our Quick_DA report
+
+We've also created a report through a library called Quick_DA that allowed us to create the missing-values and correlation matrix values you can see in our "Visuals" directory. If you want to see the full report, you can [Download This File](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/report:_disasters_and_economic_impact_by_year_1635690884.html) and run it locally in your internet browser. This will show you the various ways we looked at each feature when we first viewed our data. 
