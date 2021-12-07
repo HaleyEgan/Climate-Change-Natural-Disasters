@@ -5,7 +5,7 @@ Natural Disasters Counts
 """
 import pandas as pd
 
-disastersDF = pd.read_csv('natural_disasters_cleaned.csv')
+disastersDF = pd.read_csv('../Data/natural_disasters_cleaned.csv')
 
 totalDisasters = disastersDF['All natural disasters'].sum()
 print("Total Disasters:", int(totalDisasters))
@@ -28,7 +28,7 @@ print("Total number of Landslides:", int(totalLandslide))
 totalWildfire = disastersDF['Wildfire'].sum()
 print("Total number of Wildfires:", int(totalWildfire))
 
-economicDF = pd.read_csv('natural_disaster_economic_impact_cleaned.csv')
+economicDF = pd.read_csv('../Data/natural_disaster_economic_impact_cleaned.csv')
 
 totalEconomic = economicDF['TotalCosts'].sum()
 print("Total economic impact:", totalEconomic)

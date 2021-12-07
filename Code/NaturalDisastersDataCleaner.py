@@ -57,7 +57,7 @@ class DisasterData(object):
     Helper Functios:
         - _clean_dataset()
     '''
-    def __init__(self, csv_strs = ['natural_disasters_original.csv','natural_disaster_economic_impact_original.csv']):
+    def __init__(self, csv_strs = ['../Data/natural_disasters_original.csv','../Data/natural_disaster_economic_impact_original.csv']):
         '''
         Opens the original file of the dataset and cleans/pivots it.
 
