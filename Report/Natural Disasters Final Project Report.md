@@ -1,6 +1,6 @@
 # Natural Disasters Over Time - Final Project Report
 
-by Haley Egan, Diana Morris, Maggie Houck, and William Johnson
+by Haley Egan, Maggie Houck, William Johnson, and Diana Morris
 
 UVA School of Data Science, DS 5100
 
