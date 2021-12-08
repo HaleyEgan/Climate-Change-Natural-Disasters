@@ -57,7 +57,7 @@ The types of natural disasters included in the original dataset were: drought, e
 ## Exploratory Data Analysis
 
 ### Correlation Matrix
-![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png)|
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png | width=100)
 
 ### All Natural Disasters
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/allDisasters.png)
