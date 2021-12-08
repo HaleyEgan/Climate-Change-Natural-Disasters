@@ -8,7 +8,7 @@ UVA School of Data Science, DS 5100
 
 Climate Change is a major crisis facing humanity. Communities appear to be facing unprecedented challenges such as drought, wildfires, flooding, extreme temperatures, and more. Scientists have communicated that as Climate Change continues, these natural disasters will increase in frequency and severity. 
 
-In order to gain more insight into natural disasters and their trends over time, we examined two datasets, one on natural disasters and another on the economic impacts of these natural disasters. Our data is a subset from the data sharing website Kaggle, of a more comprehensive disaster dataset maintained by EM-DAT, the International Disaster Database.  The data is drawn primarily from UN agencies, national governments and the International Red Cross / Crescent. The data is updated on a daily basis but updates are made publicly available every three months.  
+In order to gain more insight into natural disasters and their trends over time, we examined two datasets, one on natural disasters and another on the economic impacts of these natural disasters. O//ur data is a subset from the data sharing website Kaggle, of a more comprehensive disaster dataset maintained by EM-DAT, the International Disaster Database. 
 
 We wanted to answer the following questions:
 
@@ -16,7 +16,15 @@ We wanted to answer the following questions:
 - Are natural disasters increasing in severity over time?
 - Are natural disasters and their severity linked to Climate Change?
 
+## Data
+
+Our data set is drawn from the International Disaster Database (EM-DAT), curated by the Centre for research on the Epidemiology of Disasters, at the Catholic University of Louvain.  This larger set is updated continuously, with qualifying disasters added as they are received, though the public version is updated to reflect the changes once monthly.  All disasters are independently verified before being added to this list.  The data is highly reliable, but because of the verification process, there is a lag between the disaster and its addition to the data set.  
+
+The original data set is far larger in that it includes all “disasters”, including technological and hazardous waste disasters, like chemical spills, and several other details such as location, exact date(s), magnitude of disaster by relevant measure (e.g. windspeed), etc.  Our subset is restricted to natural disasters and economic damages. Moreover, it is a snapshot from 2018, consolidated on Kaggle.  For this reason, we eventually chose to restrict our analysis to the years up to 2015 because many qualifying disasters were not visible in the snapshot because of the reporting lag time.  
+
 ## Defining a Natural Disaster
+
+The requirements for a qualifying disaster are clearly established and the variables are carefully described in the EM-DAT guidelines, per this website: https://public.emdat.be/about.
 
 The primary criteria for a disaster to be included in the data set is one of more of the following:
 
