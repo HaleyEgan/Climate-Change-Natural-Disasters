@@ -20,7 +20,7 @@ We wanted to answer the following questions:
 
 # Instructions for Running Code
 
-follow the link to our jupyter notebook here: [link](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Report/Climate_Change_and_Economic_Impact.ipynb)
+Follow the link to our jupyter notebook here: [link](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Report/Climate_Change_and_Economic_Impact.ipynb)
 You'll find a button that says "Run In Colab". That notebook should open in your drive as a new colab notebook. The script will clone and copy our repository and leverage the code written in the <u>Source</u> directory, including our unittests. The code is all OOP, so there need only be a few lines of code written to execute on complex operations. 
 
 You can re-run each cell in order if you want to test the code out. It will create a copy of our repository on your google drive. 
