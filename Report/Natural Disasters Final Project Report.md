@@ -8,7 +8,7 @@ UVA School of Data Science, DS 5100
 
 Climate Change is a major crisis facing humanity. Communities appear to be facing unprecedented challenges such as drought, wildfires, flooding, extreme temperatures, and more. Scientists have communicated that as Climate Change continues, these natural disasters will increase in frequency and severity. 
 
-In order to gain more insight into natural disasters and their trends over time, we examined two datasets, one on natural disasters and another on the economic impacts of these natural disasters. O//ur data is a subset from the data sharing website Kaggle, of a more comprehensive disaster dataset maintained by EM-DAT, the International Disaster Database. 
+In order to gain more insight into natural disasters and their trends over time, we examined two datasets, one on natural disasters and another on the economic impacts of these natural disasters.
 
 We wanted to answer the following questions:
 
@@ -57,7 +57,7 @@ The types of natural disasters included in the original dataset were: drought, e
 ## Exploratory Data Analysis
 
 ### Correlation Matrix
-![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png)
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png)|
 
 ### All Natural Disasters
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/allDisasters.png)
@@ -102,4 +102,6 @@ The next step with our current dataset on natural disasters and economic impact 
 
 ## References 
 
- https://ourworldindata.org/natural-disastershttps://ourworldindata.org/natural-disasters (data published by EMDAT (2019): OFDA/CRED International Disaster Database, Université catholique de Louvain – Brussels – Belgium)
+ OFDA/CRED International Disaster Database, Université catholique de Louvain. EMDAT, 2019. Brussels, Belgium. https://ourworldindata.org/natural-disastershttps://ourworldindata.org/natural-disasters. 
+ 
+ Natural Disaster Data: Occurance and Economic Impact, 2018. Kaggle. https://www.kaggle.com/dataenergy/natural-disaster-data?select=economic-damage-from-natural-disasters.csv.
