@@ -86,7 +86,7 @@ Extreme temperature appears to be increasing steadily since 1970, with a spike a
 
 ## Unittesting
 
-In order to support reproducability and future work with this dataset and code, we created unit tests to test expected inputs and outputs for the dataset. 
+In order to support reproducibility and future work with this dataset and code, we created unit tests to test expected inputs and outputs for the dataset. 
 
 ## Conclusion 
 
