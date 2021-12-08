@@ -51,13 +51,13 @@ While the data we obtained had already been cleaned and organized, it was necess
 The types of natural disasters included in the original dataset were: drought, earthquake, extreme temperature, extreme weather, flood, impact, landslide, mass movement (dry), volcanic activity, wildfire, and information on all these natural disasters combined. Since we were interested in natural disasters in relation to Climate Change, it was not necessary for our analysis to keep all of the variables. We removed earthquakes, volcanoes, mass movement (dry), and impact, as these variables are largely independent from Climate Change. We also changed some of the variable names to be more clear, such as renaming 'Entity' as 'Disaster'. After removing several variables, we updated the 'All Natural Disasters' variable to only include the selected variables for our dataset. We also removed the 'code' column, and organized the data by date, and then disaster type, instead of by the original disaster type. We combined the economic data set with the natural disaster data set for easier analysis and comparisons among natural disaster types and trends over time. 
 
 ### Missing Data
-![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Missing_Data.png)
-![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/missing%20data%20stats.png)
+<img src="https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Missing_Data.png" width="80%" height="80%">
+<img src="https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/missing%20data%20stats.png" width="80%" height="80%">
 
 ## Exploratory Data Analysis
 
 ### Correlation Matrix
-![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png | width=100)
+<img src="https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/QuickDA_Explore_Results/Quick_DA_Correlations.png" width="70%" height="70%">
 
 ### All Natural Disasters
 ![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/allDisasters.png)
