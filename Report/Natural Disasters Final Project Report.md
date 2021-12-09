@@ -80,7 +80,7 @@ These line graphs examine the trend of droughts around the world since 1970, and
 Extreme weather is an aggregate of a few natural disaster types: typhoons, tornadoes, and hurricanes. Based on the left line graph, there appears to be a steady increase in extreme weather events since 1970. The right graph also communicates the increase in economic impact of extreme weather events over time.
 
 ### Extreme Temperature
-![extreme temp](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/extremeW.png)
+![extreme temp](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/extremeT.png)
 ![extreme temp](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/extremeTCost.png)
 
 Extreme temperature appears to be increasing steadily since 1970, with a spike around 2010, that is consistent with the sharp increase in economic cost of extreme temperature around 2010. Extreme temperature seems to fluctuate from year to year, but the graph shows a consistent upward trend over time. Overall, the economic impact of extreme temperature does not appear to have the same economic impact as other natural disasters.  
