@@ -85,6 +85,10 @@ Extreme weather is an aggregate of a few natural disaster types: typhoons, torna
 
 Extreme temperature appears to be increasing steadily since 1970, with a spike around 2010, that is consistent with the sharp increase in economic cost of extreme temperature around 2010. Extreme temperature seems to fluctuate from year to year, but the graph shows a consistent upward trend over time. Overall, the economic impact of extreme temperature does not appear to have the same economic impact as other natural disasters.  
 
+## Linear Regression
+Since the conditions for simple regression are largely met, we further considered a simple linear regression model with the year predicting the number of natural disasters.  We found that the slope of the regression line is 8.197 with a 95% confidence interval of (7.22,9.17), indicating that each additional year predicts an average of between 7 and 9 additional natural disasters.
+![image](https://github.com/HaleyEgan/Climate-Change-Natural-Disasters/blob/main/Visuals/Natural%20Disaster%20Regression.png)
+
 ## Unittesting
 
 In order to support reproducibility and future work with this dataset and code, we created unit tests to test expected inputs and outputs for the dataset. 
