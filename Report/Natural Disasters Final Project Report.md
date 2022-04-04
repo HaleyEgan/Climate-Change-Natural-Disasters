@@ -2,7 +2,7 @@
 
 by Haley Egan, Maggie Houck, William Johnson, and Diana Morris
 
-UVA School of Data Science, DS 5100
+UVA School of Data Science
 
 ## Introduction 
 
