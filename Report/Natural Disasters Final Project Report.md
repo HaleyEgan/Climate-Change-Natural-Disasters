@@ -1,4 +1,4 @@
-# Natural Disasters Over Time - Final Project Report
+# Natural Disasters Over Time
 
 by Haley Egan, Maggie Houck, William Johnson, and Diana Morris
 
